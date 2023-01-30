@@ -46,7 +46,7 @@ export class LogInfoService {
   //
   getLogRemoto() {
     //
-    let url = 'https://learningpath.somee.com/demos/generarinformejson';
+    let url = 'http://angulardemo.somee.com/demos/generarinformejson';
     // 
     return this.http.get<LogEntry[]>(url);   
   }
